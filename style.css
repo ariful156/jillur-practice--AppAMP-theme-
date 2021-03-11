@@ -1,0 +1,219 @@
+body, h1, h2, h3, h4, h5, h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+/* header style */
+
+.jon-header a.navbar-brand {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.jon-header span {display: inline-block;
+    background-color: #6278DF;
+    color: white;
+    height: 40px;
+    width: 31px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    top: 3px;
+}
+.jon-menu a.nav-link {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+}
+
+/* slider section */
+.slider-section{
+    background: url(img/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.slider-section h2{
+    font-size: 45px;
+}
+.slider-section .btn{
+    padding: 15px 20px;
+    background-color: #5BA533;
+    font-size: 25px;
+    font-weight: 600;
+}
+.slider-section .form-control {
+    padding: 18px 20px;
+}
+
+/* number cunter section */
+.counter-number-item h2{
+    font-size: 50px;
+    font-weight: 500;
+}
+.counter-number-item p{
+    font-size: 20px;
+}
+
+/* about-section */
+.about-section{
+    background-color:#F7F9FF ;
+}
+.abs-left{
+    margin-top: 120px;
+}
+.abs-left .lead{
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+/* feature section css */
+.feature-item{
+    height: 300px;
+    box-shadow: 2.5px 4.2px 30px 0 rgba(22, 23, 51, 0.185);
+}
+.left-img-item{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-img-item img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -100px;
+}
+.right-text-item{
+    width: 60%;
+}
+
+
+/* portfolio section css */
+.portfolio-section{}
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a:after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0;
+    background-color: rgba(98, 120, 223, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.8s ease-out;
+}
+.portfolio-item:hover a:after{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* pricing-section css */
+.pricing-section{
+    background-color:#F7F9FF ;
+}
+.pricing-item{
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 2.5px 4.2px 30px 0 rgba(22, 23, 51, 0.185);
+    border-radius: 10px;
+}
+.pricing-item h1{}
+.pricing-item h4{}
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.pricing-item ul li{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #777;
+}
+.pricing-item ul li span{
+
+    color: #6278DF;
+    display: inline-block;
+    width: 50px;
+}
+.pricing-button{
+}
+.pricing-button a{
+    width: 350px;
+    font-size: 25px;
+    color:#6278DF ;
+    border-color: #6279df10;
+    box-shadow: 2.5px 4.2px 30px 0 rgba(22, 23, 51, 0.185);
+
+}
+
+/* user section css */
+img.float-left.rounded-circle {
+    width: 75px;
+}
+i.fas.fa-quote-left {
+    font-size: 100px;
+    color: #F0F0F0;
+}
+.author-profile {
+    margin: auto;
+    width: 350px;
+}
+.user-serction .details {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/* team section css */
+.team{
+    background-color: #F7F9FF;
+}
+.card{
+    box-shadow: 2.5px 4.2px 30px 0 rgba(22, 23, 51, 0.185);
+    border: none;
+    margin-top: 150px;
+}
+.card .btn{
+    border: none;
+    box-shadow: 2.5px 4.2px 30px 0 rgba(22, 23, 51, 0.185);
+}
+.card p{
+    font-size: 15px;
+}
+.team img{
+    width: 130px;
+    margin-top: -30%;
+    margin-left: 15px;
+}
+
+
+/* contact section cess */
+.contact-section .main-form{
+    box-shadow: 2.5px 4.2px 30px 0 rgba(22, 23, 51, 0.1);
+    padding: 40px;
+}
+.contact-section .main-form input, textarea{
+    box-shadow: 2.5px 4.2px 30px 0 rgba(16, 16, 39, 0.096);
+}
+
+footer{
+    background-color: #F7F9FF;
+}
